@@ -52,4 +52,4 @@ jobs:
         run: python main.py
 ```
 
-Finally, test your bot by going to **Actions** > **Schedule Tweet** > **Run workflow**.
+Finally, create a file in your repository called `tweets.txt` with a list of tweets you'd like to randomly schedule, separated by lines breaks. You can test your bot by going to **Actions** > **Schedule Tweet** > **Run workflow**.
