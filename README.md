@@ -12,10 +12,10 @@ A Twitter bot that posts a random quote from a text file during peak hours, usin
 6. Copy your project's **API Key**, **API Key Secret**, **Access Token**, and **Access Token Secret**, and store them somewhere safe.
 7. Clone this repository, click on **Settings**, and on the sidebar go to **Secrets and variables** > **Actions**.
 8. Add four repository secrets and paste their respective values: 
-  - `CONSUMER KEY`: Your API Key 
-  - `CONSUMER SECRET`: Your API Key Secret 
-  - `ACCESS TOKEN`: Your Access Token 
-  - `ACCESS SECRET`: Your Access Token Secret 
+  - `CONSUMER_KEY`: Your API Key 
+  - `CONSUMER_SECRET`: Your API Key Secret 
+  - `ACCESS_TOKEN`: Your Access Token 
+  - `ACCESS_TOKEN_SECRET`: Your Access Token Secret 
 9. In your GitHub repository, create a `.github/workflows` directory.
 10. Inside your workflows directory, create a file called `action.yml` with the following:
 
