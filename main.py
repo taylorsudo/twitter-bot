@@ -3,7 +3,7 @@ import random
 import tweepy
 
 # Retrieve Twitter API credentials from environment variables
-consumer_token = os.environ.get("CONSUMER_TOKEN")
+consumer_key = os.environ.get("CONSUMER_KEY")
 consumer_secret = os.environ.get("CONSUMER_SECRET")
 access_token = os.environ.get("ACCESS_TOKEN")
 access_token_secret = os.environ.get("ACCESS_TOKEN_SECRET")
@@ -18,13 +18,13 @@ def read_tweets(file_path):
 tweets_file_path = "tweets.txt"
 
 def post_random_tweet():
-    if not (consumer_token and consumer_secret and access_token and access_token_secret):
+    if not (consumer_key and consumer_secret and access_token and access_token_secret):
         print("Please set the environment variables for API credentials.")
         return
 
     # Authenticate with the Twitter API
     client = tweepy.Client(
-        consumer_key=consumer_token,
+        consumer_key=consumer_key,
         consumer_secret=consumer_secret,
         access_token=access_token,
         access_token_secret=access_token_secret
