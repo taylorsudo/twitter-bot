@@ -47,7 +47,7 @@ jobs:
         env:
             ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
             ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-            CONSUMER_TOKEN: ${{ secrets.CONSUMER_TOKEN }}
+            CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
             CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
         run: python main.py
 ```
