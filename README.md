@@ -10,7 +10,7 @@ A Twitter bot that posts a random quote from a text file during peak hours, usin
 4. In the **Developer Portal**, find your project app under **Default project** and click **App settings**.
 5. In the **User authentication settings** area, click on **Set up**. Set **App permissions** to **Write and Read**, **Type of App** to **Web App** and for **App info** insert your bot’s Twitter profile as the callback URL and website link.
 6. Copy your project's **API Key**, **API Key Secret**, **Access Token**, and **Access Token Secret**, and store them somewhere safe.
-7. Clone this repository, click on **Settings**, and on the sidebar go to **Secrets and variables** > **Actions**.
+7. Fork this repository, click on **Settings**, and on the sidebar go to **Secrets and variables** > **Actions**.
 8. Add four repository secrets and paste their respective values: 
   - `CONSUMER_KEY`: Your API Key 
   - `CONSUMER_SECRET`: Your API Key Secret 
